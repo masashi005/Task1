@@ -36,7 +36,7 @@ main{
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   margin: 10px;
 }
 
@@ -44,7 +44,7 @@ main{
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   margin: 10px;
 }
 
@@ -52,7 +52,7 @@ main{
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   margin: 10px;
 }
 
@@ -77,11 +77,11 @@ footer{
 }
 
 /*以下レスポンシブル*/
-@media screen and (max-width:960px){
+@media screen and (max-width:768px){
 
   main{
     width: 90vw;
-    margin: 50px auto;
+    margin: 50px 5vw;
     display: block;
   }
 
